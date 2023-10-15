@@ -30,8 +30,8 @@ const Details = () => {
                   </Link>
                 </div>
                 <p className="text-md font-semibold text-gray-700 py-7 lg:pr-[50px]">
-                  {d.intro} I am here to provide my expertise in
-                  {d.about.services[0]}, {d.about.services[1]} and
+                  {d.intro} I am here to provide my expertise in{" "}
+                  {d.about.services[0]}, {d.about.services[1]} and{" "}
                   {d.about.services[2]}, all to assist you effectively.
                 </p>
                 <div className="flex">
