@@ -17,19 +17,19 @@ const Details = () => {
   }, [id]);
 
   return (
-    <div className="mx-[20px] md:mx-[70px] mt-20">
+    <div className="mx-[20px] md:mx-[70px] mt-10 md:mt-[60px]">
       {data &&
         data.map((d) => (
           <div key={d.id} className="flex flex-col md:flex-row gap-[40px]">
             <div className="w-full lg:w-2/5">
               <div>
                 <div className="flex justify-between items-center">
-                  <p className="text-4xl font-bold">{d.name}</p>
+                  <p className="text-3xl sm:text-4xl font-bold">{d.name}</p>
                   <Link to="/">
                     <ClearIcon style={{ color: "red" }} />
                   </Link>
                 </div>
-                <p className="text-md font-semibold text-gray-700 py-7 lg:pr-[50px]">
+                <p className="text-sm sm:text-md font-semibold text-gray-700 py-7 lg:pr-[50px]">
                   {d.intro} I am here to provide my expertise in{" "}
                   {d.about.services[0]}, {d.about.services[1]} and{" "}
                   {d.about.services[2]}, all to assist you effectively.
@@ -70,7 +70,7 @@ const Details = () => {
                 <p className="text-lg md:text-3xl text-gray-600 font-bold py-2">
                   What people say?
                 </p>
-                <p className="py-1 text-gray-600 text-md font-semibold">
+                <p className="py-1 text-gray-600 text-sm sm:text-md font-semibold">
                   I cannot express enough gratitude for the support {d.name} has
                   provided in managing my personal finances. Their attention to
                   detail and deep understanding of financial markets has ensured
@@ -96,13 +96,13 @@ const Details = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row justify-between">
                   <div className="flex sm:flex-col items-center gap-5">
-                    <p className="text-lg text-gray-400 font-bold py-2">FROM</p>
+                    <p className="text-md sm:text-lg text-gray-400 font-bold py-2">FROM</p>
                     <p className="text-gray-600 font-semibold">
                       {d.about.from}
                     </p>
                   </div>
                   <div className="flex sm:flex-col items-center gap-5">
-                    <p className="text-lg text-gray-400 font-bold py-2">
+                    <p className="text-md sm:text-lg text-gray-400 font-bold py-2">
                       PARTNER SINCE
                     </p>
                     <p className="text-gray-600 font-semibold">
@@ -110,7 +110,7 @@ const Details = () => {
                     </p>
                   </div>
                   <div className="flex sm:flex-col items-center gap-5">
-                    <p className="text-lg text-gray-400 font-bold py-2">
+                    <p className="text-md sm:text-lg text-gray-400 font-bold py-2">
                       AVERAGE RESPONSE TIME
                     </p>
                     <p className="text-gray-600 font-semibold">
@@ -122,7 +122,7 @@ const Details = () => {
 
               <div className="mb-8">
                 <p className="text-lg text-gray-400 font-bold py-4">ABOUT</p>
-                <p className="text-gray-600 text-lg font-semibold">
+                <p className="text-gray-600 text-md sm:text-lg font-semibold">
                   {d.about.description}
                 </p>
               </div>
@@ -136,7 +136,7 @@ const Details = () => {
                     <ul className="list-disc">
                       {d.about.services.map((service, i) => (
                         <div key={i}>
-                          <li className="text-gray-600 text-lg font-semibold">
+                          <li className="text-gray-600 text-md sm:text-lg font-semibold">
                             {service}
                           </li>
                         </div>
@@ -152,7 +152,7 @@ const Details = () => {
                     <ul className="list-disc ml-[20px]">
                       {d.about.benefits.map((benefit, i) => (
                         <div key={i}>
-                          <li className="text-gray-600 text-lg font-semibold">
+                          <li className="text-gray-600 text-md sm:text-lg font-semibold">
                             {benefit}
                           </li>
                         </div>

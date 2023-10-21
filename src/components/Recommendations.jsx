@@ -19,7 +19,7 @@ const Recommendations = () => {
   return (
     <div className="flex flex-col md:flex-row w-full items-center gap-10">
       {data.map((d) => (
-        <div key={d.id} className="w-[50%] rounded-xl shadow-xl">
+        <div key={d.id} className="w-full sm:w-[70%] md:w-[80%] rounded-xl shadow-2xl hover:shadow-xl">
           <div>
             <img
               src={d.image}
@@ -31,7 +31,7 @@ const Recommendations = () => {
             />
           </div>
           <div>
-            <div className="flex justify-between px-4 py-2">
+            <div className="flex justify-between space-x-1 px-4 py-2">
               <p className="text-xl font-bold">{d.name}</p>
               <p className="text-xl font-bold">{d.price}</p>
             </div>

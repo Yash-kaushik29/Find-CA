@@ -22,14 +22,14 @@ const Intro = () => {
   return (
     <div className="flex flex-col lg:flex-row mt-10 lg:mt-20 p-5">
       <div className="lg:w-2/3 lg:ml-10 flex flex-col">
-        <p className="text-7xl font-bold mb-4">
+        <p className="text-5xl sm:text-7xl font-bold mb-4">
           Find{" "}
           <span className="bg-gradient-to-tl from-[#0076CE] to-[#9400D3] bg-clip-text text-transparent">
             Partners
           </span>{" "}
           (CAs) available online
         </p>
-        <p className="text-gray-600 text-lg mb-4">
+        <p className="text-gray-600 text-md sm:text-lg mb-4">
           <span className="text-lg font-semibold">CONNECT</span> with us where
           your services are listed and visible to a myriad of businesses seeking
           CA’s for compliance support

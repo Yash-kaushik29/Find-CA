@@ -16,7 +16,7 @@ const DetailsPage = () => {
       </div>
 
       <div className="mt-10 mx-[20px] md:mx-[70px]">
-        <p className="text-4xl font-bold pb-10 text-center md:text-start">Recommended for you</p>
+        <p className="text-3xl sm:text-4xl font-bold pb-10 text-center md:text-start">Recommended for you</p>
         <div>
           <Recommendations />
         </div>

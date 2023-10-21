@@ -7,8 +7,8 @@ import Intro from "../components/Intro";
 const HomePage = () => {
 
   return (
-    <div className="">
-      <div className="bg-gradient-to-r from-pink-50 via-purple-50 to-blue-100 w-full">
+    <div>
+      <div className="bg-gradient-to-r from-pink-50 via-purple-100 to-blue-100 w-full">
         <div>
           <Navbar />
         </div>
@@ -16,40 +16,40 @@ const HomePage = () => {
         <div><Intro /></div>
       </div>
 
-      <div className="mt-[120px]">
-        <p className="text-6xl font-bold text-center">
+      <div className="mt-[120px] mx-[20px] lg:mx-[50px]">
+        <p className="text-4xl sm:text-6xl font-bold text-center">
           Want to{" "}
           <span className="bg-gradient-to-l from-[#0076CE] to-[#9400D3] bg-clip-text text-transparent">
             Join
           </span>{" "}
           Us ?
         </p>
-        <p className="text-gray-700 text-xl font-semibold text-center mt-5">
+        <p className="text-gray-700 text-lg sm:text-xl font-semibold text-center mt-5">
           To remain with us, it is essential that you diligently follow the
           steps provided
         </p>
       </div>
 
-      <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-[50px] cursor-pointer">
+      <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-[30px] sm:mx-[50px] cursor-pointer">
         <Cards />
       </div>
       
-      <p className="text-md font-semibold text-gray-600 mx-[50px]">
+      <p className="text-md font-semibold text-gray-600 mx-[40px] md:mx-[50px]">
         * For forms AOC-4 and MGT-7, you will be charged a penalty of ₹200{" "}
         <span className="text-black font-bold">every day</span> until you file
         the form . There is no maximum penalty amount. So, if you don't file the
         form for a year, you will owe ₹73,000 per form
       </p>
 
-      <div className="mt-[100px] lg:mt-[200px] flex flex-col lg:flex-row mx-[50px] justify-between ">
+      <div className="mt-[100px] lg:mt-[200px] flex flex-col lg:flex-row mx-[40px] md:mx-[50px] justify-between ">
         <div className="lg:w-1/2">
-          <p className="text-6xl font-bold">
+          <p className="text-4xl sm:text-6xl font-bold">
             <span className="bg-gradient-to-l from-[#0076CE] to-[#9400D3] bg-clip-text text-transparent">
               All-in-One
             </span>{" "}
             platform that makes easier
           </p>
-          <p className="text-gray-700 text-lg font-semibold mt-5">
+          <p className="text-gray-700 text-md sm:text-lg font-semibold mt-5">
             We are more than a platform; We are your success partner. Discover
             our services to achieve your business and educational goals
           </p>
@@ -58,14 +58,14 @@ const HomePage = () => {
             <div className="flex flex-col sm:flex-row my-5">
               <div className="sm:w-1/2 flex flex-row items-center">
                 <img src="icons/icon1.png" />
-                <p className="text-md text-gray-600 font-semibold ml-1">
+                <p className="text-sm sm:text-md text-gray-600 font-semibold ml-1">
                   <span className="text-lg font-bold text-black">Search</span>{" "}
                   for vital company information.
                 </p>
               </div>
               <div className="sm:w-1/2 flex flex-row mt-6 sm:mt-0 items-center">
                 <img src="icons/icon3.png" />
-                <p className="text-md text-gray-600 font-semibold ml-1">
+                <p className="text-sm sm:text-md text-gray-600 font-semibold ml-1">
                   <span className="text-lg font-bold text-black">Connect</span>{" "}
                   with your resources to meet your business needs.
                 </p>
@@ -74,14 +74,14 @@ const HomePage = () => {
             <div className="flex flex-col sm:flex-row my-5">
               <div className="sm:w-1/2 flex flex-row items-center">
                 <img src="icons/icon2.png" />
-                <p className="text-md text-gray-600 font-semibold ml-1">
+                <p className="text-sm sm:text-md text-gray-600 font-semibold ml-1">
                   <span className="text-lg font-bold text-black">Research</span>{" "}
                   and generate reports that drive growth.
                 </p>
               </div>
               <div className="sm:w-1/2 flex flex-row mt-6 sm:mt-0 items-center">
                 <img src="icons/icon4.png" />
-                <p className="text-md text-gray-600 font-semibold ml-1">
+                <p className="text-sm sm:text-md text-gray-600 font-semibold ml-1">
                   <span className="text-lg font-bold text-black">Academy</span>{" "}
                   to give you the skills for success in your career.
                 </p>
@@ -91,7 +91,7 @@ const HomePage = () => {
         </div>
 
         <div className="lg:w-1/2">
-          <div className="mx-auto mt-10 lg:mt-0 lg:ml-0 lg:mr-auto mb-4 lg:mb-0 flex flex-row">
+          <div className="mt-10 lg:mt-0 lg:ml-0 lg:mr-auto mb-4 lg:mb-0 flex flex-row">
             <div className="w-1/2 inline-block md:ml-20">
               <p className="bg-purple-200 text-md text-gray-700 font-semibold w-[100%] rounded-xl px-3 py-[2px] my-1">
                 Hey, check out loreumipsum services.{" "}

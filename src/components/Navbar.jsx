@@ -4,7 +4,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const Navbar = () => {
 
   return (
-    <div className="h-[55px] flex md:flex-row justify-between items-center p-5">
+    <div className="h-[55px] flex justify-between items-center p-5">
       {/* Left Section (Logo and Navigation Links) */}
       <div className="flex flex-row lg:space-y-0 md:space-x-6 lg:space-x-5 items-center mb-2 lg:mb-0 lg:ml-12">
         <div>

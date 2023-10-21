@@ -7,7 +7,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
   return (
-    <footer className="max-container mx-[50px] mt-[150px]">
+    <footer className="max-container mx-[50px] mt-[120px]">
       <div className="flex justify-between items-start gap-10 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start mt-5">
           <a href="/">
